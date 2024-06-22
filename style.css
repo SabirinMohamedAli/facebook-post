@@ -1,0 +1,142 @@
+.post {
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #e1e4e8;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.profile {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px; 
+}
+
+.username {
+  flex-grow: 1;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.time {
+  color: #757575;
+  font-size: 0.8em;
+  margin-left: auto; 
+  padding-right: 10px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50px; /* Adjust width as needed */
+}
+
+.fa-ellipsis, .fa-xmark {
+  cursor: pointer;
+  color: #757575;
+}
+
+.context {
+  padding: 15px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.interaction-section {
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.interactions {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.like-icon,
+.comment-icon,
+.send-icon,
+.share-icon {
+  cursor: pointer;
+  font-size: 1.5em;
+  color: #4267B2;
+}
+
+.like-icon {
+  margin-right: 20px;
+}
+
+.comment-icon {
+  margin-right: 20px;
+}
+
+.send-icon {
+  margin-right: 20px;
+}
+
+.share-icon {
+  margin-right: 0;
+}
+
+.social-count {
+  display: flex;
+  justify-content: start;
+  padding: 5px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.social-count span {
+  margin-right:30px; /*  space between likes and comments */
+}
+
+.comment-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
+.comment-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #e1e4e8;
+  border-radius: 15px;
+  margin-right: 8px;
+}
+
+.comment-submit {
+  background-color: #4267B2;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.comments-section {
+  padding: 10px;
+}
+
+.comment {
+  background-color: #f0f2f5;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
